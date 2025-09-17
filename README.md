@@ -46,7 +46,7 @@ Do not learn learn JavaScript before, HTML and CSS. Do not learn JavaScript libr
 The backend interacts with frontend and the database using a backend programming language that could be (Node.js, Python, Ruby, PHP, etc). Look at the following figure to understand the interaction between client. A client send a HTTP request to the backend and the backend return a HTTP response to the client computer(The response could be an HTML page, txt, image, or any other form of data). HTTP(Hypertext Transfer Protocol) is a communication protocol that allow transmitting data between a client and a sever. It is designed for communication between web browsers(client) and web servers.  <br/>
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-**EVERY LESSONS YOU WILL FIND ON THIS "HTML" AND "CSS" COURSE** <br/>
+**EVERY LESSONS YOU WILL FIND ON THIS "HTML" AND "CSS" COURSE (below)** <br/>
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Introduction To HTML** <br/>
@@ -58,7 +58,7 @@ HTML code will be rendered by a browser and it give a human readable output. Loo
 
 
 
-**All "HTML" TAGS** (Note: Also Used on this Course) <br/>
+**All "HTML" TAGS** (Note: majority Used on this Course) <br/>
 
 HTML has a comprehensive set of tags used to structure content on a web page. The full list is extensive, but tags are generally grouped by their function into categories like document structure, text formatting, forms, and media. <br/>
 
@@ -100,8 +100,117 @@ These are used for paragraphs, headings, and various text styles. <br/>
 ➡️ **The "hr" tag**: Defines a thematic break, typically as a horizontal line. <br/>
 
 ✔️  **Links and lists** <br/>
+Tags for creating hyperlinks and various types of lists <br/>
+➡️ **The "a" and "ul" tag**: for links. <br/>
+➡️ **The "ol" and "li" tag**:  for unordered and ordered list items. <br/>
+➡️ **The "dt", "dd" and "dl" tag**: for Description lists. <br/>
+
+✔️  **Images and multimedia** <br/>
+➡️ **The "img" tag**: To embed images and multimedia. <br/>
+➡️ **The "audio" tag**: for sound content. <br/>
+➡️ **The "figure" and "figcaption" tag**: for video. <br/>
+➡️ **The "source" tag**: to specify multiple media resources for audio or video elements. <br/>
+
+✔️  **Tables** <br/>
+➡️ **The "table", "tr", "th", "td" tag**: structure data in rows and columns. <br/>
+➡️ **The "thead", "tbody", "tfoot" tag**: group header, body, and footer content within a table. <br/>
+
+✔️  **Forms and input** <br/>
+Interactive controls for user input are created using tags such as 
+➡️ **The "form", "input" tag**: for various input types. <br/>
+➡️ **The "textarea" tag**: for multi-line text. <br/>
+➡️ **The "button" tag**: is used to create clickable buttons on a webpage. <br/>
+➡️ **The "select", "option" tag**: Drop-down lists are made with this. <br/>
+➡️ **The "label" tag**: defines a label for input elements.. <br/>
+➡️ **The "fieldset" tag**: Related form elements can be grouped. <br/>
+➡️ **The "legend" tag**: given a caption with this. <br/>  <br/>  <br/>  <br/>
+
+
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Introduction To CSS** <br/>
-CSS, or Cascading Style Sheets, is a stylesheet language used to describe the presentation of a document written in a markup language, most commonly HTML. It is a cornerstone technology of the World Wide Web, working alongside HTML and JavaScript to create interactive and visually appealing web pages. <br/>
+CSS, or Cascading Style Sheets, is a stylesheet language used to describe the presentation of a document written in a markup language, most commonly HTML. It is a cornerstone technology of the World Wide Web, working alongside HTML and JavaScript to create interactive and visually appealing web pages. <br/>  <br/>
 
-All "CSS" Tags (Note: Also Used on this Course)
+**All "CSS" elements** (Note: majority Used on this Course) <br/>
+
+**Here Are The List Of Common And Noteworthy CSS Tree, Organized by Category:** <br/>
+➡️ **Selectors**  <br/>
+1. Element Selector **""**: Selects all instances of an element, such as p for all paragraphs. The CSS element selector selects all elements with the specified element name.The element selector uses the HTML tag name itself as the selector, like, h2 {color: blue;
+  text-align: center;} <br/>
+2. Class Selector **".class"**: Selects all elements with a specific class attribute, like, .intro { }  <br/>
+3. ID Selector **"#id"**: Selects a single element with a unique ID attribute, like, #firstname { } <br/>  
+4. Universal Selector **"*"**: Selects all element  <br/> 
+5. Attribute Selector **"[attribute|="value"]"**: An attribute selector in CSS is a type of selector that targets HTML elements based on the presence or value of a specific attribute, like, [attribute="value"] { /* Styles applied to elements where 'attribute' equals 'value' */ } <br/>
+6. Pseudocode-Class Selector ****: A pseudo-class is a selector that selects elements that are in a specific state, for example, they are the first element of their type  <br/>
+7. Pseudo-element Selector **"::"**: A CSS pseudo-element selector applies styles to specific, abstract parts of an element that are not directly represented by distinct HTML elements in the document tree, like , selector::pseudo-element-name { }
+ <br/>
+ 
+ ➡️ **Box Model**  <br/>
+ Components of the CSS Box Model <br/>
+ 1. Content : The innermost part where the actual data, such as text and images, appears. Its size is set using the width and height properties. <br/>
+ 2. Padding : The transparent space surrounding the content, clearing an area around it. The padding property controls its size. <br/>
+ 3. Border : A line that wraps around the padding and content, which can be styled and sized with the border property. <br/>
+ 4. Margin : The outermost transparent space that creates separation between the box and other elements on the page. The margin property controls its size. <br/> <br/>
+
+  ➡️ **Display Property**  <br/>
+Key Values and Their Behavior: <br/>
+ 1. block:  <br/>
+    1i. Elements with display: block always start on a new line.  <br/>
+    1ii. They take up the full available width of their parent container. <br/>
+    1iii. Examples include "div", "p", "h1" to "h6" tags. <br/>
+    1iv. Margins, padding, and height can be applied to all four sides. <br/>
+ 2. inline:  <br/>
+    2i. Elements with display: inline do not start on a new line. <br/>
+    211. They only take up the width necessary for their content. <br/>
+    2iii. Examples include "span", "a", "strong" tag. <br/>
+    2iv. Top and bottom margins and height cannot be directly applied; padding can be applied but may overlap with adjacent elements. <br/>
+ 3. inline-block:  <br/>
+    3i. This value combines characteristics of both inline and block. <br/>
+    3ii. Elements with display: inline-block do not start on a new line (like inline). <br/>
+    3iii. They allow the application of top/bottom margins, padding, and height (like block). <br/>
+ 4. none: <br/>
+     4i.  Setting display: none completely removes the element from the document flow. <br/>
+     4ii. The element becomes invisible, and it does not occupy any space on the page. <br/>
+ 5. flex: <br/>
+     5i.  Transforms an element into a flex container, enabling the use of Flexbox properties for powerful and flexible layout management of its children. <br/>
+     5ii. Transforms an element into a grid container, enabling the use of CSS Grid properties for two-dimensional, grid-based layout. <br/> <br/>
+
+     ➡️ **Positioning**  <br/>
+There are five main values for the position property: <br/>
+1.)  static: This is the default value for all HTML elements. Static-positioned elements are rendered in the normal document flow and are not affected by top, right, bottom, or left properties. <br/>
+
+2.)  relative: An element with position: relative; is positioned relative to its normal position in the document flow. Applying top, right, bottom, or left will shift the element from its original location, but it still occupies its space in the normal flow, meaning other elements will not fill the gap it leaves behind. <br/>
+
+3.)  absolute: An element with position: absolute; is removed from the normal document flow and positioned relative to its nearest non-static positioned ancestor. If no such ancestor exists, it's positioned relative to the initial containing block (usually the <html> element or the viewport). Absolute positioning allows for precise placement using top, right, bottom, and left. <br/>
+
+4.)  fixed: An element with position: fixed; is also removed from the normal document flow and positioned relative to the viewport. This means it stays in the same position on the screen even when the user scrolls the page. <br/>
+
+5.)  sticky: An element with position: sticky; behaves like position: relative; within its normal flow until a specified scroll threshold is met. Once that threshold is reached, it then behaves like position: fixed;, sticking to a particular position within the viewport as the user continues to scroll. <br/> <br/>
+
+     ➡️ **FlexBox**  <br/>
+ Key 2 Concepts of Flexbox:  <br/>
+ 1. Flex Container: The parent element that holds the flex items. To enable Flexbox, the display property of this element is set to flex or inline-flex. <br/>
+ 2. Flex Items: The direct children of the flex container. These items will be arranged and aligned according to the Flexbox properties applied to the container and themselves. <br/>
+ 
+**For the "Flex Container / properties"**:
+1i. flex-direction: Defines the direction of the main axis (e.g., row, row-reverse, column, column-reverse). <br/>
+
+1ii. justify-content: Aligns flex items along the main axis (e.g., flex-start, flex-end, center, space-between, space-around, space-evenly). <br/>
+
+1iii. align-items: Aligns flex items along the cross axis (e.g., flex-start, flex-end, center, baseline, stretch). <br/>
+
+1iv.  flex-wrap: Controls whether flex items wrap onto multiple lines (e.g., nowrap, wrap, wrap-reverse). <br/>
+
+1v. align-content: Aligns multiple lines of flex items along the cross axis when flex-wrap is set to wrap or wrap-reverse (e.g., flex-start, flex-end, center, space-between, space-around, stretch). <br/>
+
+1vi.  flex-flow: A shorthand for flex-direction and flex-wrap. <br/>
+
+1vii. display: flex <br/>
+
+**For the "Flex Items / Properties"**:
+2i. flex-grow: Defines the ability of a flex item to grow if necessary. <br/>
+2ii. flex-shrink: Defines the ability of a flex item to shrink if necessary. <br/>
+2iii. flex-basis: Defines the default size of an element before the remaining space is distributed. <br/>
+2iv.  flex: A shorthand for flex-grow, flex-shrink, and flex-basis. <br/>
+2v. order: Controls the visual order of flex items within the container. <br/>
+2vi. align-self: Overrides the align-items property for individual flex items.

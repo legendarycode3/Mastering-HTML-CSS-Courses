@@ -175,7 +175,7 @@ Key Values and Their Behavior: <br/>
      5i.  Transforms an element into a flex container, enabling the use of Flexbox properties for powerful and flexible layout management of its children. <br/>
      5ii. Transforms an element into a grid container, enabling the use of CSS Grid properties for two-dimensional, grid-based layout. <br/> <br/>
 
-     ➡️ **Positioning**  <br/>
+➡️ **Positioning**  <br/>
 There are five main values for the position property: <br/>
 1.)  static: This is the default value for all HTML elements. Static-positioned elements are rendered in the normal document flow and are not affected by top, right, bottom, or left properties. <br/>
 
@@ -183,11 +183,11 @@ There are five main values for the position property: <br/>
 
 3.)  absolute: An element with position: absolute; is removed from the normal document flow and positioned relative to its nearest non-static positioned ancestor. If no such ancestor exists, it's positioned relative to the initial containing block (usually the <html> element or the viewport). Absolute positioning allows for precise placement using top, right, bottom, and left. <br/>
 
-4.)  fixed: An element with position: fixed; is also removed from the normal document flow and positioned relative to the viewport. This means it stays in the same position on the screen even when the user scrolls the page. <br/>
+ 4.)  fixed: An element with position: fixed; is also removed from the normal document flow and positioned relative to the viewport. This means it stays in the same position on the screen even when the user scrolls the page. <br/>
 
-5.)  sticky: An element with position: sticky; behaves like position: relative; within its normal flow until a specified scroll threshold is met. Once that threshold is reached, it then behaves like position: fixed;, sticking to a particular position within the viewport as the user continues to scroll. <br/> <br/>
+ 5.)  sticky: An element with position: sticky; behaves like position: relative; within its normal flow until a specified scroll threshold is met. Once that threshold is reached, it then behaves like position: fixed;, sticking to a particular position within the viewport as the user continues to scroll. <br/> <br/>
 
-     ➡️ **FlexBox**  <br/>
+     ➡️ **FlexBox**   <br/>
  Key 2 Concepts of Flexbox:  <br/>
  1. Flex Container: The parent element that holds the flex items. To enable Flexbox, the display property of this element is set to flex or inline-flex. <br/>
  2. Flex Items: The direct children of the flex container. These items will be arranged and aligned according to the Flexbox properties applied to the container and themselves. <br/>
@@ -209,8 +209,16 @@ There are five main values for the position property: <br/>
 
 **For the "Flex Items / Properties"**:
 2i. flex-grow: Defines the ability of a flex item to grow if necessary. <br/>
+
 2ii. flex-shrink: Defines the ability of a flex item to shrink if necessary. <br/>
+
 2iii. flex-basis: Defines the default size of an element before the remaining space is distributed. <br/>
+
 2iv.  flex: A shorthand for flex-grow, flex-shrink, and flex-basis. <br/>
+
 2v. order: Controls the visual order of flex items within the container. <br/>
-2vi. align-self: Overrides the align-items property for individual flex items.
+
+2vi. align-self: Overrides the align-items property for individual flex items.  <br/> <br/>
+
+
+➡️ **Grid**  <br/>

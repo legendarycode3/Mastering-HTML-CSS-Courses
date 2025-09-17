@@ -43,4 +43,40 @@ There are hundreds of JavaScript that allows building a dynamic web applications
 Do not learn learn JavaScript before, HTML and CSS. Do not learn JavaScript libraries before you learn JavaScript. This the right sequence of learning:HTML > CSS > JavaScript > React or Vue or Angular.
 
 **Back-end development:**  Deals with the server, database, and application logic that powers the website or application. Back-end development (the server, database, and application logic), often requiring a blend of creative problem-solving and technical skills to deliver smooth and efficient user experiences. <br/>
-The backend interacts with frontend and the database using a backend programming language that could be (Node.js, Python, Ruby, PHP, etc). Look at the following figure to understand the interaction between client. A client send a HTTP request to the backend and the backend return a HTTP response to the client computer(The response could be an HTML page, txt, image, or any other form of data). HTTP(Hypertext Transfer Protocol) is a communication protocol that allow transmitting data between a client and a sever. It is designed for communication between web browsers(client) and web servers.
+The backend interacts with frontend and the database using a backend programming language that could be (Node.js, Python, Ruby, PHP, etc). Look at the following figure to understand the interaction between client. A client send a HTTP request to the backend and the backend return a HTTP response to the client computer(The response could be an HTML page, txt, image, or any other form of data). HTTP(Hypertext Transfer Protocol) is a communication protocol that allow transmitting data between a client and a sever. It is designed for communication between web browsers(client) and web servers.  <br/>
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**EVERY LESSONS YOU WILL FIND ON THIS "HTML" AND "CSS" COURSE** <br/>
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**Introduction To HTML** <br/>
+HTML (HyperText Markup Language) was invented by Tim Berners-Lee in 1991 while he was at CERN, to help scientists share information online. Its early versions established core features like headings, paragraphs, and hyperlinks. After several versions and the creation of XHTML to align with XML, the web standard became fragmented. To address this, the W3C and WHATWG collaborated to develop HTML5, which is now the widely adopted and evolving standard for building websites and web applications. <br/>
+
+The word HTML is an acronym. That is stands for Hypertext Markup Language. It is the standard markup languages to develop websites. HTML is the build block of the web that allows building layouts of page using HTML elements. HTML is not not a programming language instead it is a markup language.
+
+HTML code will be rendered by a browser and it give a human readable output. Look at the figure bellow to understand better how the HTML code convert to a website using a browser.  <br/>
+
+**All "HTML" TAGS** (Note: Also Used on this Course) <br/>
+
+HTML has a comprehensive set of tags used to structure content on a web page. The full list is extensive, but tags are generally grouped by their function into categories like document structure, text formatting, forms, and media. <br/>
+
+**Here Are The List Of Common And Noteworthy HTML Tags, Organized by Category:** <br/>
+✔️  **Document structure** <br/> 
+These tags provide the basic framework for any HTML document, They include: <br/>
+➡️ <!DOCTYPE>: Declares the document type and version of HTML. <br/>
+➡️ <!html>: The root element that wraps all content on the page. <br/>
+➡️ <head>: Contains meta-information about the page, such as its title, links to stylesheets, and other data for the browser. <br/>
+➡️ <title>: Sets the title that appears in the browser tab. <br/>
+➡️ <body>: Contains all the visible content of the web page. <br/>
+
+✔️  **Semantic And Sectioning Elements**
+➡️ <br/>
+➡️ <br/>
+➡️ <br/>
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**Introduction To CSS** <br/>
+CSS, or Cascading Style Sheets, is a stylesheet language used to describe the presentation of a document written in a markup language, most commonly HTML. It is a cornerstone technology of the World Wide Web, working alongside HTML and JavaScript to create interactive and visually appealing web pages. <br/>
+
+All "CSS" Tags (Note: Also Used on this Course)

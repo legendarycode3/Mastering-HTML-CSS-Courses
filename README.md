@@ -1,5 +1,5 @@
-**MASTERING HTML AND CSS COURSE**
-
+**MASTERING HTML AND CSS COURSE** <br/> <br/>
+ 
 
 **Requirements**
 The minimum requirement to follow this challenge <br/>
@@ -54,7 +54,9 @@ HTML (HyperText Markup Language) was invented by Tim Berners-Lee in 1991 while h
 
 The word HTML is an acronym. That is stands for Hypertext Markup Language. It is the standard markup languages to develop websites. HTML is the build block of the web that allows building layouts of page using HTML elements. HTML is not not a programming language instead it is a markup language.
 
-HTML code will be rendered by a browser and it give a human readable output. Look at the figure bellow to understand better how the HTML code convert to a website using a browser.  <br/>
+HTML code will be rendered by a browser and it give a human readable output. Look at the figure bellow to understand better how the HTML code convert to a website using a browser.  <br/> <br/>
+
+
 
 **All "HTML" TAGS** (Note: Also Used on this Course) <br/>
 
@@ -63,18 +65,41 @@ HTML has a comprehensive set of tags used to structure content on a web page. Th
 **Here Are The List Of Common And Noteworthy HTML Tags, Organized by Category:** <br/>
 ✔️  **Document structure** <br/> 
 These tags provide the basic framework for any HTML document, They include: <br/>
-➡️ <!DOCTYPE>: Declares the document type and version of HTML. <br/>
-➡️ <!html>: The root element that wraps all content on the page. <br/>
-➡️ <head>: Contains meta-information about the page, such as its title, links to stylesheets, and other data for the browser. <br/>
-➡️ <title>: Sets the title that appears in the browser tab. <br/>
-➡️ <body>: Contains all the visible content of the web page. <br/>
+➡️ **<!DOCTYPE> tag**: Declares the document type and version of HTML. <br/>
+➡️ **The "html" tag**:  The root element that wraps all content on the page. <br/>
+➡️ **The "head" tag**: Contains meta-information about the page, such as its title, links to stylesheets, and other data for the browser. <br/>
+➡️ **<title> tag**: Sets the title that appears in the browser tab. <br/>
+➡️ **The "body" tag**: Contains all the visible content of the web page. <br/>
 
-✔️  **Semantic And Sectioning Elements**
-➡️ <br/>
-➡️ <br/>
-➡️ <br/>
+✔️  **Semantic And Sectioning Elements** <br/>
+These tags give meaning to the structure of the content and aid accessibility and search engines. <br/>
+➡️ **The "header" tag**: Defines introductory content or a set of navigational links for a document or a section. <br/>
+➡️ **The "nav" tag**: Specifies a section of navigation links. <br/>
+➡️ **The "main" tag**: Contains the primary, dominant content of the document. <br/>
+➡️ **The "article" tag**:  Defines an independent, self-contained piece of content. <br/>
+➡️ **The "section" tag**: Represents a generic section of a document. <br/>
+➡️ **The "aside" tag**: Contains content that is tangentially related to the main content, like a sidebar. <br/>
+➡️ **The "footer" tag**: Defines a footer for a document or section.<br/>
+➡️ **The "div" tag**: A block-level container for grouping other elements. <br/>
+➡️ **The "span" tag**: An inline container for grouping content. <br/>
 
+✔️  **Text content and formatting** <br/>
+These are used for paragraphs, headings, and various text styles. <br/>
+➡️ **The "h1" to "h6" tag**: Headings, with "h1" being the most important and "h6" the least. <br/>
+➡️ **The "p" tag**: Defines a paragraph of text. <br/>
+➡️ **The "strong" tag**: Indicates strongly important text (renders as bold). <br/>
+➡️ **The "b" tag**: Defines bold text without extra importance. <br/>
+➡️ **The "em" tag**: Defines emphasized text (renders as italic). <br/>
+➡️ **The "i" tag**: Defines text with an alternate voice or mood (renders as italic). <br/>
+➡️ **The "mark" tag**: Highlights text for reference. <br/>
+➡️ **The "del" tag**: Represents deleted text. <br/>
+➡️ **The "ins" tag**: Represents inserted text. <br/>
+➡️ **The "sub" tag**: Defines subscripted text. <br/>
+➡️ **The "sup" tag**: Defines superscripted text. <br/>
+➡️ **The "br" tag**: Inserts a single line break. <br/>
+➡️ **The "hr" tag**: Defines a thematic break, typically as a horizontal line. <br/>
 
+✔️  **Links and lists** <br/>
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Introduction To CSS** <br/>
 CSS, or Cascading Style Sheets, is a stylesheet language used to describe the presentation of a document written in a markup language, most commonly HTML. It is a cornerstone technology of the World Wide Web, working alongside HTML and JavaScript to create interactive and visually appealing web pages. <br/>

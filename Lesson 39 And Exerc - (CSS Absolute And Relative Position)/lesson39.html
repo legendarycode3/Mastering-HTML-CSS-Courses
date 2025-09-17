@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title> Lesson 39  -  (CSS Absolute & Relative Position) </title>
+
+    <style>
+        body {
+            height: 3000px;
+            padding-top: 60px;
+
+            padding-left: 80px;
+        }
+
+        .header {
+            background-color: black;
+            color: white;
+            width: 100%;
+
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            height: 50px;
+
+            z-index: 100;
+        }
+
+        .side-bar {
+            background-color: greenyellow;
+            color: white;
+            position: fixed;
+            left: 0px;
+            bottom: 0px;
+            top: 50px;
+            width: 72px;
+        }
+
+        .absolute-x {
+            position: absolute;
+            background-color: red;
+            color: white;
+            top: 0;
+            right: 0;
+        }
+
+        .absolute {
+            position: absolute;
+            background-color: orange;
+            color: white;
+            top: 60px;
+            right: 10px;
+        }
+        
+
+
+        .div-1 {
+            height: 200px;
+            width: 200px;
+            background-color: lightblue;
+        }
+
+        
+        .div-2-relative-usage {
+            background-color: lightpink;
+            width: 200px;
+            height: 200px;
+            position: relative;
+        }
+
+        .absolute-time {
+            position: absolute;
+            background-color: black;
+            color: white;
+            bottom: 10px;
+            right: 10px;
+        }
+       
+      
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+        Header 
+    </div>
+    <div class="side-bar">
+        SideBar
+        <div class="absolute-x">
+            X
+        </div>
+    </div>
+    <div class="absolute">
+        Absolute example
+    </div>
+    <div class="div-1"> 
+        Div 1
+    </div>
+    <div class="div-2-relative-usage">
+        Div 2
+        <div class="absolute-time">
+            5:00
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+<!-- Stoped 5:15 on the tutorial -->

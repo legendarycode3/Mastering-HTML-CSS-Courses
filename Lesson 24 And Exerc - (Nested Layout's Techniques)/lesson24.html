@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Lesson 24 - (Nexted Layout's Technique) </title>
+
+        <style>
+
+            /* GERENAL CAT SECTION CATEGORY */
+            .cat-details {
+                display: inline-block;
+                width: 300px;
+                border: 1px solid;
+                margin-right: 10px;
+                margin-bottom: 10px;
+                vertical-align: top;
+                border-radius: 20px;
+
+            }
+            .cat-profile {
+                display: inline-block;
+                width: 50px;
+                padding-right: 10px;
+                padding-left: 10px;
+            }
+            
+            .cat-profile img {
+                border-radius: 50%;
+            }
+            .cat-infos {
+                display: inline-block;
+            }
+            .cat-profile-button{
+                display: inline-block;
+            }
+            .cat-name {
+                color: black;
+                font-weight: bold;
+            }
+            .cat-part,
+            .cat-category {
+                color: gray;
+            }
+            
+
+            /* SECTION CARD 1 CATEGORIES */
+            .cat-image1 {
+                width: 40px;
+            }
+            .cat-button1 {
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                border-radius: 10px;
+                border: none;
+                color: white;
+                background-color: blue;
+                font-weight: bold;
+                cursor: pointer;
+            }
+            .cat-button1:hover {
+                background-color: aqua;
+                color: black;
+            }
+
+
+            /* SECTION CARD 2 CATEGORIES */
+            .cat-image2 {
+                width: 40px;
+            }
+            .cat-button2 {
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                border-radius: 10px;
+                border: none;
+                color: white;
+                background-color: blue;
+                font-weight: bold;
+                cursor: pointer;
+                
+            }
+            .cat-button2:hover {
+                background-color: aqua;
+                color: black;
+            }
+            
+
+            /* SECTION CARD 3 CATEGORIES */
+            .cat-image3 {
+                width: 40px;
+            }
+            .cat-button3 {
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                border-radius: 10px;
+                border: none;
+                color: white;
+                background-color: blue;
+                font-weight: bold;
+                cursor: pointer;
+            }
+            .cat-button3:hover {
+                background-color: aqua;
+                color: black;
+            }
+
+
+             /* SECTION CARD 4 CATEGORIES */
+             .cat-image4 {
+                width: 40px;
+            }
+            .cat-button4 {
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                border-radius: 10px;
+                border: none;
+                color: white;
+                background-color: blue;
+                font-weight: bold;
+                cursor: pointer;
+            }
+            .cat-button4:hover {
+                background-color: aqua;
+                color: black;
+            }
+
+
+             /* SECTION CARD 5 CATEGORIES */
+             .cat-image5 {
+                width: 40px;
+            }
+            .cat-button5 {
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                border-radius: 10px;
+                border: none;
+                color: white;
+                background-color: blue;
+                font-weight: bold;
+                cursor: pointer;
+            }
+            .cat-button5:hover {
+                background-color: aqua;
+                color: black;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="cat-details">
+            <div class="cat-profile">
+                <img class="cat-image1" src="Images/cati-mage1.webp" alt="">
+            </div>
+            <div class="cat-infos">
+                <p class="cat-name"> British Shorthair Cat </p>
+                <p class="cat-part">The Cat</p>
+                <p class="cat-category"> Popular </p>
+            </div>
+            <div class="cat-profile-button">
+                <button class="cat-button1">
+                    Follow
+                </button>
+            </div>
+        </div>
+
+        <div class="cat-details">
+            <div class="cat-profile">
+                <img class="cat-image2" src="Images/cat-image2.avif" alt="">
+            </div>
+            <div class="cat-infos">
+                <p class="cat-name"> Persian Cat</p>
+                <p class="cat-part">The Cat</p>
+                <p class="cat-category"> Mamal </p>
+            </div>
+            <div class="cat-profile-button">
+                <button class="cat-button2">
+                    Follow
+                </button>
+            </div>
+        </div>
+
+        
+        <div class="cat-details">
+            <div class="cat-profile">
+                <img class="cat-image3" src="Images/cat-image3.avif" alt="">
+            </div>
+            <div class="cat-infos">
+                <p class="cat-name"> BirdMan Cat</p>
+                <p class="cat-part">The Cat</p>
+                <p class="cat-category"> Incridible </p>
+            </div>
+            <div class="cat-profile-button">
+                <button class="cat-button3">
+                    Follow
+                </button>
+            </div>
+        </div>
+
+        <div class="cat-details">
+            <div class="cat-profile">
+                <img class="cat-image4" src="Images/cat-image4.avif" alt="">
+            </div>
+            <div class="cat-infos">
+                <p class="cat-name"> Scottish Fold Cat</p>
+                <p class="cat-part">The Cat</p>
+                <p class="cat-category"> Popular </p>
+            </div>
+            <div class="cat-profile-button">
+                <button class="cat-button4">
+                    Follow
+                </button>
+            </div>
+        </div>
+
+        <div class="cat-details">
+            <div class="cat-profile">
+                <img class="cat-image5" src="Images/cat-image5.avif" alt="">
+            </div>
+            <div class="cat-infos">
+                <p class="cat-name"> Ragdoll Cat</p>
+                <p class="cat-part">The Cat</p>
+                <p class="cat-category"> Bloomberg </p>
+            </div>
+            <div class="cat-profile-button">
+                <button class="cat-button5">
+                    Follow
+                </button>
+            </div>
+        </div>
+    </body>
+</html>

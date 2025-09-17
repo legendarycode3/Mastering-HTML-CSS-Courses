@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Lesson 7 - (Box Model & Chrome DevTools)</title>
+    <style>
+        .stretch-button {
+            background-color: green;
+            border: none;
+            padding-left: 16px;
+            padding-right: 16px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            color: white;
+            cursor: pointer;
+            margin-right: 10px;
+            vertical-align: top;
+        }
+
+        .shadow-button {
+            background-color: green;
+            border: none;
+            padding-left: 16px;
+            padding-right: 16px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            cursor: pointer;
+           color: white;
+           vertical-align: top;
+           transition: box-shadow 0.15s;
+           margin-right: 10px;
+        }
+
+        .shadow-button:hover {
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+        }
+
+        .button-one {
+            padding-left: 16px;
+            padding-right: 16px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-right: 10px;
+            background-color: green;
+            border: none;
+            color: white;
+            cursor: pointer;
+            transition: padding-left 0.15, padding-right 0.15;
+        }
+
+        .button-one:hover {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .button-one:active {
+            background-color: red;
+        }
+
+        .button-two {
+            padding-left: 16px;
+            padding-right: 16px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-right: 10px;
+            background-color: green;
+            border: none;
+            color: white;
+            cursor: pointer;
+            transition: padding-left 0.15, padding-right 0.15;
+        }
+        
+        .button-two:hover {
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+
+        .button-two:active {
+            background-color: greenyellow;
+        }
+
+        .button-three {
+            padding-left: 16px;
+            padding-right: 16px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-right: 10px;
+            background-color: green;
+            border: none;
+            color: white;
+            cursor: pointer;
+            transition: padding-left 0.15, padding-right 0.15;
+        }
+
+        .button-three:hover {
+            padding-left: 35px;
+            padding-right: 35px;
+        }
+
+        .button-three:active {
+            background-color: blue;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <button class="stretch-button"> Stretch </button>
+    <button class="shadow-button"> Shadow </button>
+    <button class="button-one"> One </button>
+    <button class="button-two"> Two </button>
+    <button class="button-three"> Three </button>
+
+</body>
+</html>

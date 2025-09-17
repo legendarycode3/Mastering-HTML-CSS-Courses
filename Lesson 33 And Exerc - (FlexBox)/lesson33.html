@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title> Lesson 33 - (FlexBox) </title>
+
+    <style>
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+            background-color: purple;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .home {
+            margin-left: 10px;
+            color: white;
+            width: 100px;
+        }
+        .search {
+            max-width: 500px;
+            flex: 1;
+            width: 300px;
+            height: 25px;
+            margin-left: 30px;
+            margin-right: 20px;
+            border-radius: 20px;
+
+        }
+        .button {
+            margin-right: 10px;
+            width: 100px;
+            border: 1px solid white;
+            color: white;
+            background-color: purple;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="home">
+             <p> Home </p> 
+        </div>
+        <div>
+            <input class="search" type="text" placeholder="Search">
+        </div>
+        <button class="button"> 
+            Download 
+        </button>
+    </div>
+</body>
+</html>

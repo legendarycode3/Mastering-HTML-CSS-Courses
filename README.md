@@ -187,12 +187,12 @@ There are five main values for the position property: <br/>
 
  5.)  sticky: An element with position: sticky; behaves like position: relative; within its normal flow until a specified scroll threshold is met. Once that threshold is reached, it then behaves like position: fixed;, sticking to a particular position within the viewport as the user continues to scroll. <br/> <br/>
 
-     ➡️ **FlexBox**   <br/>
+  ➡️ **FlexBox**   <br/>
  Key 2 Concepts of Flexbox:  <br/>
  1. Flex Container: The parent element that holds the flex items. To enable Flexbox, the display property of this element is set to flex or inline-flex. <br/>
  2. Flex Items: The direct children of the flex container. These items will be arranged and aligned according to the Flexbox properties applied to the container and themselves. <br/>
  
-**For the "Flex Container / properties"**:
+**For the "Flex Container properties"**:
 1i. flex-direction: Defines the direction of the main axis (e.g., row, row-reverse, column, column-reverse). <br/>
 
 1ii. justify-content: Aligns flex items along the main axis (e.g., flex-start, flex-end, center, space-between, space-around, space-evenly). <br/>
@@ -207,7 +207,7 @@ There are five main values for the position property: <br/>
 
 1vii. display: flex <br/>
 
-**For the "Flex Items / Properties"**:
+**For the "Flex Items Properties"**:
 2i. flex-grow: Defines the ability of a flex item to grow if necessary. <br/>
 
 2ii. flex-shrink: Defines the ability of a flex item to shrink if necessary. <br/>
@@ -219,6 +219,54 @@ There are five main values for the position property: <br/>
 2v. order: Controls the visual order of flex items within the container. <br/>
 
 2vi. align-self: Overrides the align-items property for individual flex items.  <br/> <br/>
+
+
+➡️ **Grid**  <br/>
+Key grid "Container / item Properties":  <br/>
+
+**For the "grid container Properties"**:
+1. display: grid  or display: inline-grid: Turns an element into a grid container, making its direct children into grid items. <br/>
+
+2. grid-template-columns: Define the number and size of columns in the grid.  Creates a grid with three equally wide columns that size to their content.  <br/>
+
+3. grid-template-rows: Define the number and size of rows in the grid. Creates a grid with a first row 100px tall and a second row 200px tall.  <br/>
+
+4. grid-auto-columns: specifies the size of an implicitly-created grid column track or pattern of tracks. means it defines the size of columns that are not explicitly defined by grid-template-columns. <br/>
+
+5. grid-auto-rows: specifies the size of an implicitly-created grid row track or pattern of tracks. <br/>
+
+6. gap (or grid-gap): A shorthand for grid-row-gap and grid-column-gap, setting the space between grid rows and columns.  <br/>
+
+7. grid-template-areas: Creates a grid layout based on named areas, which are defined using grid-area on the grid items.  <br/>
+
+8. align-content: This property aligns the grid's rows along the column (block) axis. <br/>
+
+9. align-items: The align-items property sets the align-self property for all of the child grid items.  <br/>
+
+10. grid-auto-flow: The grid-auto-flow CSS property controls how the auto-placement algorithm works, specifying exactly how auto-placed items get flowed into the grid. <br/>
+
+**For the "grid item Properties"**: <br/>
+1. grid-column: A shorthand property for grid-column-start and grid-column-end.  <br/>
+
+2. grid-column-start: Specifies the starting grid line for a grid item along the column axis. <br/>
+
+3. grid-column-end: Specifies the ending grid line for a grid item along the column axis. <br/>
+
+4. grid-row: A shorthand property for grid-row-start and grid-row-end.  <br/>
+
+5. grid-row-start: Specifies the starting grid line for a grid item along the row axis. <br/>
+
+6. grid-row-end: Specifies the ending grid line for a grid item along the row axis. <br/>
+
+7. align-self: is used to align individual grid items within their respective grid areas along the block (vertical) axis. It overrides the align-items property set on the grid container for that specific it. <br/>
+
+8. justify-content: The justify-content property is used to align the grid items when they do not use all available space on the main-axis (horizontally).  <br/>
+
+9. grid-area: A shorthand property that defines a grid item's size and location by specifying its grid-row-start, grid-column-start, grid-row-end, and grid-column-end. <br/>
+
+10. justify-self: Aligns the content of a grid item along the row (inline) axis within its grid area. Values include start, end, center, and stretch.  <br/>
+
+11. place-self: A shorthand property for align-self and justify-self.  <br/> <br/>
 
 
 ➡️ **Grid**  <br/>

@@ -314,4 +314,60 @@ Key CSS "Filter Effect" Properties: <br/>
 
 
   ➡️ **Responsive Design**  <br/>
+    Responsive web design in CSS relies on several key properties and techniques to ensure a website adapts and displays optimally across various devices and screen sizes. <br/>
+    Core  Responsive Design Properties: <br/>
+1. **Media Queries**: <br/>
+   1i.) Media queries are a fundamental CSS feature that allows the application of different styles based on device characteristics like screen width, height, orientation, and resolution. <br/>
+   1ii.) They enable the creation of "breakpoints," which are specific screen sizes where the layout or styling changes to better suit the device. <br/>
+   
+   Example: <br/>
+    @media (max-width: 768px) { <br/>
+       /* Styles for screens up to 768px wide */ <br/>
+       .container { <br/>
+         flex-direction: column; <br/>
+       }  <br/>
+     }  <br/>
+
+2. **Viewport Meta Tag**: <br/>
+   2i.) The meta name="viewport" tag in HTML is crucial for instructing browsers on mobile devices how to render the page, ensuring it's not scaled down to fit the entire desktop version. <br/>
+   
+3. **Flexible Images and Media**: <br/>
+   3i.) Images and other media should also scale responsively to prevent overflow and maintain a visually appealing layout. <br/>
+   3ii.) Setting max-width: 100%; and height: auto; on images ensures they don't exceed their container's width and maintain their aspect ratio. <br/>
+   3iii.) The picture element and srcset attribute in HTML, combined with CSS, allow for serving different image sizes based on the device's capabilities. <br/>
+   
+   Example: <br/>
+     img {  <br/>
+          max-width: 100%; <br/>
+          height: auto;  <br/>
+      } <br/>
+      
+4. **Container Queries (Emerging)**: <br/>
+    4i.) Container queries, a newer addition to CSS, allow styling elements based on the size of their parent container rather than the entire viewport. This enables more granular control over component-level responsiveness. <br/>
     
+    Example: <br/>
+       @container (min-width: 400px) { <br/>
+          .card { <br/>
+            font-size: 1.2em; <br/>
+          }  <br/>
+        }  <br/> <br/>
+
+
+➡️ **Typography**  <br/>
+CSS provides numerous properties to control and customize typography on web pages. These properties can be broadly categorized into font-related properties and text-related properties. <br/>
+1. **Font Properties** <br/>
+   1i.) font-family: Specifies the typeface to be used (e.g., Arial, Times New Roman, sans-serif). Multiple font families can be listed as fallbacks. <br/>
+   1ii.) font-size: Sets the size of the font (e.g., 16px, 1.2em, large). <br/>
+   1iii.)  font-weight: Controls the thickness or boldness of the text (e.g., normal, bold, 400, 700). <br/>
+   1iv.) font-style: Determines the slant of the text (e.g., normal, italic, oblique). <br/>
+   1v.) font-variant: Specifies whether text should be displayed in small-caps (e.g., normal, small-caps). <br/>
+   1vi.) font-stretch: Adjusts the normal width of a font (e.g., normal, condensed, expanded). <br/>
+   1vii.) font (Shorthand): A shorthand property to set multiple font properties in a single declaration, following a specific order. <br/>
+   
+3. **Text Properties**:
+   
+4. **Line Height**: <br/>
+   
+5. **Letter Spacing**: <br/>
+   
+6. **Text Shadow**: <br/>

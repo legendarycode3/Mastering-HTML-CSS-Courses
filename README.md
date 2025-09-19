@@ -40,7 +40,7 @@ There are hundreds of JavaScript that allows building a dynamic web applications
 **.** React <br/>
 **.** Vue <br/>
 **.** Angular <br/>
-Do not learn learn JavaScript before, HTML and CSS. Do not learn JavaScript libraries before you learn JavaScript. This the right sequence of learning:HTML > CSS > JavaScript > React or Vue or Angular.
+Do not learn learn JavaScript before, HTML and CSS. Do not learn JavaScript libraries before you learn JavaScript. This the right sequence of learning:HTML > CSS > JavaScript > React or Vue or Angular..
 
 **Back-end development:**  Deals with the server, database, and application logic that powers the website or application. Back-end development (the server, database, and application logic), often requiring a blend of creative problem-solving and technical skills to deliver smooth and efficient user experiences. <br/>
 The backend interacts with frontend and the database using a backend programming language that could be (Node.js, Python, Ruby, PHP, etc). Look at the following figure to understand the interaction between client. A client send a HTTP request to the backend and the backend return a HTTP response to the client computer(The response could be an HTML page, txt, image, or any other form of data). HTTP(Hypertext Transfer Protocol) is a communication protocol that allow transmitting data between a client and a sever. It is designed for communication between web browsers(client) and web servers.  <br/>

@@ -269,4 +269,49 @@ Key grid "Container / item Properties":  <br/>
 11. place-self: A shorthand property for align-self and justify-self.  <br/> <br/>
 
 
-➡️ **Grid**  <br/>
+➡️ **Visual Effects**  <br/>
+CSS offers various properties and functions for applying visual effects to elements on a webpage. These effects can enhance the aesthetic appeal and interactivity of a website without requiring external image editing software, they include: <br/>
+
+⚡️**Transitions**:  <br/>
+Key CSS "Transition" Properties: <br/>
+      i.) transition-property: Specifies which CSS property or properties to transition. all can be used to transition all applicable properties. <br/>
+      ii.) transition-duration: Sets the length of time the transition takes to complete (e.g., 2s, 500ms). <br/>
+      iii.) transition-timing-function: Defines the speed curve of the transition, controlling how the animation progresses (e.g., ease, linear, ease-in, ease-out, cubic-bezier()). <br/>
+      iv.) transition-delay: Specifies a delay before the transition begins after the trigger is activated. <br/>
+      
+⚡️**Animations**:  <br/>
+Key CSS Animation Properties: <br/>
+      i.) animation-name: Specifies the name of the @keyframes rule to use. <br/>
+      ii.) animation-duration: Sets the length of time an animation takes to complete one cycle. <br/>
+      iii.) animation-timing-function: Defines the speed curve of the animation (e.g., linear, ease, ease-in, ease-out, ease-in-out, cubic-bezier(), steps()). <br/>
+      iv.) animation-delay: Specifies a delay before the animation starts. <br/>
+      v.) animation-iteration-count: Determines how many times an animation should play (e.g., 1, infinite). <br/>
+      vi.) animation-direction: Controls whether the animation should play forwards, backwards, or alternate directions on each cycle. <br/>
+      vii.) animation-fill-mode: Specifies what styles are applied to the element before and after the animation runs. <br/>
+      viii.) animation-play-state: Allows pausing or resuming an animation. <br/>
+      
+⚡️**Css Transforms**:  <br/>
+Key CSS "Transforms" Properties: <br/>
+     i.) translate(x, y): Moves an element along the X and Y axes. <br/>
+     ii.) rotate(angle): Rotates an element around its origin. <br/>
+     iii.) scale(x, y): Resizes an element along the X and Y axes. <br/>
+     iv.) skew(x-angle, y-angle): Skews an element along the X and Y axes. <br/>
+     v.) matrix(): Combines all 2D transform functions into a single matrix. <br/>
+
+⚡️**Css Filter Effect**:  <br/>
+Key CSS "Filter Effect" Properties: <br/>
+     i.) blur(): Applies a Gaussian blur to the element. <br/>
+     ii.) brightness(): Adjusts the brightness of the element. <br/>
+     iii.) contrast(): Modifies the contrast of the element. <br/>
+     iv.) drop-shadow(): Adds a drop shadow effect. <br/>
+     v.) grayscale(): Converts the element to grayscale. <br/>
+     vi.) hue-rotate(): Rotates the hue of the element's colors. <br/>
+     vii.) invert(): Inverts the colors of the element. <br/>
+     viii.) saturate(): Modifies the color saturation of the element. <br/>
+     ix.) sepia(): Applies a sepia tone to the element. <br/>
+     x.)  url(): References an SVG filter for more complex and custom filter effects. <br/>
+     xi.)  opacity(): Adjusts the transparency of the element (similar to the opacity property). <br/> <br/>
+
+
+  ➡️ **Responsive Design**  <br/>
+    

@@ -358,6 +358,7 @@ CSS provides numerous properties to control and customize typography on web page
 
 1. **Font Properties** <br/>
 CSS font properties control the appearance of text within HTML elements. These properties can be set individually or combined using the font shorthand property. <br/>
+
    1i.) font-family: Specifies the typeface to be used (e.g., Arial, Times New Roman, sans-serif). Multiple font families can be listed as fallbacks. <br/>
    1ii.) font-size: Sets the size of the font (e.g., 16px, 1.2em, large). <br/>
    1iii.)  font-weight: Controls the thickness or boldness of the text (e.g., normal, bold, 400, 700). <br/>
@@ -368,6 +369,7 @@ CSS font properties control the appearance of text within HTML elements. These p
    
 2. **Text Properties**:
    CSS provides a comprehensive set of properties for styling and formatting text within web documents. These properties allow for precise control over the visual appearance of characters, words, lines, and blocks of text. <br/>
+   
    2i.) color: Sets the color of the text. <br/>
    2ii.) text-align: Controls the horizontal alignment of text within its containing element (e.g., left, right, center, justify). <br/>
    2iii.)  text-decoration: Adds or removes decorative lines from text (e.g., none, underline, overline, line-through). <br/>
@@ -383,6 +385,7 @@ CSS font properties control the appearance of text within HTML elements. These p
    
 3. **Line Height**: <br/>
 The CSS line-height property controls the vertical spacing between lines of text within an element. It defines the height of a line box, which in turn determines the distance between the baselines of consecutive lines of text. <br/>
+
    3i.) normal: This is the default value. It computes to a "reasonable" value based on the font size of the element, which often varies slightly between browsers. <br/>
    3ii.) number (unitless): This value is a unitless number that is multiplied by the element's font-size to determine the line-height. This is generally the recommended approach as it scales proportionally with the font size. For example, line-height: 1.5; would result in a line height 1.5 times the font size. <br/>
    3iii.)  length: This specifies a fixed line-height using standard CSS length units like px, em, rem, etc. For example, line-height: 24px; <br/>

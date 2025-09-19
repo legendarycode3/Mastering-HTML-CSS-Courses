@@ -355,7 +355,9 @@ Key CSS "Filter Effect" Properties: <br/>
 
 ➡️ **Typography**  <br/>
 CSS provides numerous properties to control and customize typography on web pages. These properties can be broadly categorized into font-related properties and text-related properties. <br/>
+
 1. **Font Properties** <br/>
+CSS font properties control the appearance of text within HTML elements. These properties can be set individually or combined using the font shorthand property. <br/>
    1i.) font-family: Specifies the typeface to be used (e.g., Arial, Times New Roman, sans-serif). Multiple font families can be listed as fallbacks. <br/>
    1ii.) font-size: Sets the size of the font (e.g., 16px, 1.2em, large). <br/>
    1iii.)  font-weight: Controls the thickness or boldness of the text (e.g., normal, bold, 400, 700). <br/>
@@ -364,10 +366,30 @@ CSS provides numerous properties to control and customize typography on web page
    1vi.) font-stretch: Adjusts the normal width of a font (e.g., normal, condensed, expanded). <br/>
    1vii.) font (Shorthand): A shorthand property to set multiple font properties in a single declaration, following a specific order. <br/>
    
-3. **Text Properties**:
+2. **Text Properties**:
+   CSS provides a comprehensive set of properties for styling and formatting text within web documents. These properties allow for precise control over the visual appearance of characters, words, lines, and blocks of text. <br/>
+   2i.) color: Sets the color of the text. <br/>
+   2ii.) text-align: Controls the horizontal alignment of text within its containing element (e.g., left, right, center, justify). <br/>
+   2iii.)  text-decoration: Adds or removes decorative lines from text (e.g., none, underline, overline, line-through). <br/>
+   2iv.) text-transform: Controls the capitalization of text (e.g., none, uppercase, lowercase, capitalize). <br/>
+   2v.) text-indent: Indents the first line of a block of text. <br/>
+   2vi.) letter-spacing: Adjusts the spacing between individual characters. <br/>
+   2vii.) word-spacing: Adjusts the spacing between words. <br/>
+   2viii.) line-height: Sets the height of each line of text, affecting the vertical spacing between lines. <br/>
+   2ix.) white-space: Controls how whitespace within an element is handled, including text wrapping and line breaks. <br/>
+   2x.)  text-shadow: Adds a shadow effect to the text. <br/>
+   2xi.) direction: Specifies the text direction within an element (e.g., ltr for left-to-right, rtl for right-to-left). <br/>
+   2xii.) vertical-align: Controls the vertical alignment of inline-level elements, including text. <br/>
    
-4. **Line Height**: <br/>
+3. **Line Height**: <br/>
+The CSS line-height property controls the vertical spacing between lines of text within an element. It defines the height of a line box, which in turn determines the distance between the baselines of consecutive lines of text. <br/>
+   3i.) normal: This is the default value. It computes to a "reasonable" value based on the font size of the element, which often varies slightly between browsers. <br/>
+   3ii.) number (unitless): This value is a unitless number that is multiplied by the element's font-size to determine the line-height. This is generally the recommended approach as it scales proportionally with the font size. For example, line-height: 1.5; would result in a line height 1.5 times the font size. <br/>
+   3iii.)  length: This specifies a fixed line-height using standard CSS length units like px, em, rem, etc. For example, line-height: 24px; <br/>
+   3iv.) percentage: This defines the line-height as a percentage of the element's font-size. For example, line-height: 150%; is equivalent to line-height: 1.5; if the font size is the same. <br/>
+   3v.) initial: Sets the property to its default value. <br/>
+   3vi.) inherit: Inherits the line-height value from the parent element. <br/>
    
-5. **Letter Spacing**: <br/>
+4. **Letter Spacing**: <br/>
    
-6. **Text Shadow**: <br/>
+5. **Text Shadow**: <br/>
